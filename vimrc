@@ -1,7 +1,5 @@
 set encoding=utf-8 " Because nobody wants latin-1
-set laststatus=2 " Needed to get lightline working
 set mouse=a " Enable mouse
-set noshowmode " Disable mode show as lightline plugin already does it
 set number " Show line numbers
 set paste " Terminal copy/paste without side effects
 set ruler " Show line and column numbers of cursor position
@@ -23,6 +21,10 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mhinz/vim-signify'
 call plug#end()
+
+" itchyny/lightline
+set laststatus=2
+set noshowmode " Mode is already shown by the plugin
 
 " mhinz/vim-signify
 highlight SignColumn	cterm=none ctermbg=none
