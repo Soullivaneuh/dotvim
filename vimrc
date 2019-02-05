@@ -21,4 +21,13 @@ endif
 call plug#begin('~/.vim/plugged')
 Plug 'editorconfig/editorconfig-vim'
 Plug 'itchyny/lightline.vim'
+Plug 'mhinz/vim-signify'
 call plug#end()
+
+" mhinz/vim-signify
+highlight SignColumn	cterm=none ctermbg=none
+highlight DiffAdd	cterm=bold ctermbg=none ctermfg=119
+highlight DiffDelete	cterm=bold ctermbg=none ctermfg=167
+highlight DiffChange	cterm=bold ctermbg=none ctermfg=227
+set updatetime=100 " https://github.com/mhinz/vim-signify/issues/277#issuecomment-439231809
+let g:signify_realtime = 1
