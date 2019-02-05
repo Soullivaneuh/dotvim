@@ -31,5 +31,3 @@ highlight SignColumn	cterm=none ctermbg=none
 highlight DiffAdd	cterm=bold ctermbg=none ctermfg=119
 highlight DiffDelete	cterm=bold ctermbg=none ctermfg=167
 highlight DiffChange	cterm=bold ctermbg=none ctermfg=227
-set updatetime=100 " https://github.com/mhinz/vim-signify/issues/277#issuecomment-439231809
-let g:signify_realtime = 1
