@@ -21,6 +21,7 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'altercation/vim-colors-solarized'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mhinz/vim-signify'
@@ -29,9 +30,18 @@ call plug#end()
 " itchyny/lightline
 set laststatus=2
 set noshowmode " Mode is already shown by the plugin
+let g:lightline = {
+  \ 'colorscheme': 'solarized',
+  \ }
 
-" mhinz/vim-signify
+" Theme setup
+syntax enable
+colorscheme solarized
+let g:solarized_termtrans=1
+set background=dark " Must be set after g:solarized_termtrans to make it working on some highlight
 highlight SignColumn	cterm=none ctermbg=none
-highlight DiffAdd	cterm=bold ctermbg=none ctermfg=119
-highlight DiffDelete	cterm=bold ctermbg=none ctermfg=167
-highlight DiffChange	cterm=bold ctermbg=none ctermfg=227
+highlight LineNr	ctermbg=none
+highlight CursorLineNr	ctermfg=3
+highlight DiffAdd	ctermbg=none
+highlight DiffDelete	ctermbg=none
+highlight DiffChange	ctermbg=none
