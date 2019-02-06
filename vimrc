@@ -9,8 +9,8 @@ set autoindent
 set smartindent
 
 " Needs +clipboard and +xterm_clipboard options to work
-" https://stackoverflow.com/a/4608206/1731473
-" https://www.slothparadise.com/copy-system-clipboard-vim/
+" @see https://stackoverflow.com/a/4608206/1731473
+" @see https://www.slothparadise.com/copy-system-clipboard-vim/
 vmap <C-C> "+y
 
 " https://github.com/junegunn/vim-plug/wiki/tips#automatic-installation
