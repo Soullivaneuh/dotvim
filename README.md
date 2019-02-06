@@ -7,3 +7,4 @@ or you can pick some configuration file manually.
 
 - Vim (Really?)
 - curl (For plug installation)
+- git (For plug plugin installations)
