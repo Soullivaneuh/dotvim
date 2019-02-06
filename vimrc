@@ -1,6 +1,7 @@
 set encoding=utf-8 " Because nobody wants latin-1
 set mouse=a " Enable mouse
 set number " Show line numbers
+set cursorline " Show on what line the cursor is
 set paste " Terminal copy/paste without side effects
 set ruler " Show line and column numbers of cursor position
 
