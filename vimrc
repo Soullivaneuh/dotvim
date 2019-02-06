@@ -1,4 +1,5 @@
 set encoding=utf-8 " Because nobody wants latin-1
+set backspace=indent,eol,start
 set mouse=a " Enable mouse
 set relativenumber
 set number " Show line numbers
