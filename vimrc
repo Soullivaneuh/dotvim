@@ -4,8 +4,9 @@ set mouse=a " Enable mouse
 set relativenumber
 set number " Show line numbers
 set cursorline " Show on what line the cursor is
-set paste " Terminal copy/paste without side effects
 set ruler " Show line and column numbers of cursor position
+set autoindent
+set smartindent
 
 " Needs +clipboard and +xterm_clipboard options to work
 " https://stackoverflow.com/a/4608206/1731473
