@@ -25,6 +25,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'itchyny/lightline.vim'
 Plug 'mhinz/vim-signify'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 " itchyny/lightline
